@@ -304,8 +304,8 @@
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
 }
 
 .feature-btn {
@@ -426,6 +426,15 @@
   /* For mobile phones: */
   .mobile-disable {
     display: none;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
