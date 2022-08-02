@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Tyrewale</title>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="group">
+        <h3 class="mobile-disable">
+          <i class="fa-regular fa-phone"></i>
+          Contact us
+        </h3>
+        <h3>&nbsp; &nbsp; +91&nbsp; 99998-23205</h3>
+      </div>
+      <div class="group">
+        <h3>
+          <i class="fa-regular fa-lock"></i>
+          Log In
+        </h3>
+        <h3>
+          &nbsp; &nbsp; <i class="fa-regular fa-user-group"></i>
+          Sign Up
+        </h3>
+      </div>
+    </div>
+    <div class="padded">
+      <div class="actionBar">
+        <img
+          src="./images/logo.png"
+          alt="logo of tyrewale"
+          class="mobile-disable"
+        />
+        <div class="searchBar">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search for tyres..."
+          />
+          <button class="search-btn">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </div>
+        <select name="car" style="border: none" class="mobile-disable">
+          <option value="Car Brands">Car Brands</option>
+          <option value="Honda">Honda</option>
+          <option value="BMW">BMW</option>
+          <option value="TATA">TATA</option>
+        </select>
+        <select name="tyres" style="border: none">
+          <option value="Tyres Brands">Tyres Brands</option>
+          <option value="Bridgestone">Bridgestone</option>
+          <option value="Yokohama">Yokohama</option>
+          <option value="Michelin">Michelin</option>
+          <option value="Continental">Continental</option>
+          <option value="Apollo">Apollo</option>
+          <option value="CEAT">CEAT</option>
+          <option value="Goodyear">Goodyear</option>
+        </select>
+        <select name="city" style="border: none" class="mobile-disable">
+          <option value="City">City</option>
+          <option value="Chandausi">Chandausi</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Moradabad">Moradabad</option>
+        </select>
+        <div class="cart">
+          <i class="fa-regular fa-cart-shopping"></i>
+          &nbsp; Cart &nbsp;
+          <div class="circle">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="padded" style="background-color: rgb(247, 247, 247)">
+      <div style="display: flex; width: 100%; height: 5vh; align-items: center">
+        Home &nbsp; &nbsp; <i class="fa-solid fa-angle-right"></i> &nbsp; &nbsp;
+        Products
+      </div>
+      <div style="display: flex; justify-content: space-between;height: fit-content;">
+        <div class="filter mobile-disable">
+          <div class="options">
+            <h3 style="margin-bottom: 2vh">Tyre Brand</h3>
+            <div class="option">
+              <label class="container"
+                >Bridgestone
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="option">
+              <label class="container"
+                >Yokohama
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="option">
+              <label class="container"
+                >Michelin
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="option">
+              <label class="container"
+                >Continental
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="option">
+              <label class="container"
+                >Apollo
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="option">
+              <label class="container"
+                >CEAT
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="option">
+              <label class="container"
+                >Goodyear
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="options">
+            <h3 style="margin-bottom: 2vh; margin-top: 2vh">Price</h3>
+            <div class="option">Under ₹ 1,000</div>
+            <div class="option">₹ 1,000 - ₹ 5,000</div>
+            <div class="option">₹ 5,000 - ₹10,000</div>
+            <div class="option">Over ₹ 10,000</div>
+          </div>
+          <div class="options">
+            <h3 style="margin-bottom: 2vh; margin-top: 2vh">Deals</h3>
+            <div class="option">
+              <label class="container"
+                >Today's Deals
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="options">
+            <h3 style="margin-bottom: 2vh; margin-top: 2vh">Pay on Delivery</h3>
+            <div class="option">
+              <label class="container"
+                >Eligible for Pay on Delivery
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="options">
+            <h3 style="margin-bottom: 2vh; margin-top: 2vh">Discount</h3>
+            <div class="option">10% Off or more</div>
+            <div class="option">25% Off or more</div>
+            <div class="option">35% Off or more</div>
+            <div class="option">50% Off or more</div>
+            <div class="option">60% Off or more</div>
+          </div>
+          <div class="options">
+            <h3 style="margin-bottom: 2vh; margin-top: 2vh">Availability</h3>
+            <div class="option">
+              <label class="container"
+                >Include Out of Stock
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="side-view" >
+          <div class="one-line">
+            <div class="description">
+              <h4>145 80 R12 Car Tyres Price List</h4>
+            </div>
+            <div class="feature-btn">
+              <h5 style="display: flex; align-items: center">Sort By:</h5>
+              <select
+                name="car"
+                style="border: none; background: none"
+                class="mobile-disable"
+              >
+                <option value="Featured">Featured</option>
+                <option value="Honda">Honda</option>
+                <option value="BMW">BMW</option>
+                <option value="TATA">TATA</option>
+              </select>
+            </div>
+          </div>
+          <div class="one-line">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium et quae mollitia ab veritatis tempora, dicta corrupti
+              ducimus dolorum excepturi dolores itaque facilis nostrum
+              perferendis harum officia aliquid. Inventore, doloremque!
+            </p>
+            <div class="feature-btn">
+              <select
+                name="car"
+                style="border: none; background: none"
+                class="mobile-disable"
+              >
+                <option value="See more">See more</option>
+              </select>
+            </div>
+          </div>
+          <div class="one-line">
+            <h4 style="margin: 2vh">145 80 R12 Car Tyres Price List</h4>
+          </div>
+          <div class="grid" id="side-view">   
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
